@@ -50,4 +50,3 @@ tests/playwright-report
 
 # config files
 sdk-config.json
-sdk-config copy.json
