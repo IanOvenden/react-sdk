@@ -3,30 +3,36 @@
 const config = {
   baseUrl: 'http://localhost:3502',
   apps: {
-    mediaCo: {
-      rep: {
-        username: 'rep@mediaco',
-        password: 'pega'
-      },
-      manager: {
-        username: 'manager@mediaco',
-        password: 'pega'
-      },
-      tech: {
-        username: 'tech@mediaco',
-        password: 'pega'
-      }
-    },
-    digv2: {
+    pokerVillains: {
       user: {
-        username: 'user.digv2',
-        password: 'pega'
-      },
-      localizedUser: {
-        username: 'localization@DigV2',
-        password: 'pega'
+        username: 'ian.ovenden@pega.com',
+        password: '55M3tall1c&55'
       }
     }
+    // mediaCo: {
+    //   rep: {
+    //     username: 'rep@mediaco',
+    //     password: 'pega'
+    //   },
+    //   manager: {
+    //     username: 'manager@mediaco',
+    //     password: 'pega'
+    //   },
+    //   tech: {
+    //     username: 'tech@mediaco',
+    //     password: 'pega'
+    //   }
+    // },
+    // digv2: {
+    //   user: {
+    //     username: 'user.digv2',
+    //     password: 'pega'
+    //   },
+    //   localizedUser: {
+    //     username: 'localization@DigV2',
+    //     password: 'pega'
+    //   }
+    // }
   },
   testsetting: {
     // Enable network throttling(Default is false)
