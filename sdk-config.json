@@ -18,7 +18,7 @@
   },
   "serverConfig": {
     "infinityRestServerUrl_comment": "Full path to Infinity REST server",
-    "infinityRestServerUrl": "https://lab-02051-hyd.lab-internal.pega.com/prweb",
+    "infinityRestServerUrl": "https://lab-02051-hyd.lab-internal.pega.com/prweb/",
 
     "appAlias_comment": "appAlias of the application which operators will be accessing (e.g., MediaCo)",
     "appAlias": "poker-villains",
