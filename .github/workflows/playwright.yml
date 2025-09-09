@@ -18,9 +18,13 @@ jobs:
     - name: Install Playwright
       run: npx playwright install --with-deps
     - name: start localserver
-      run: npm run start-dev
+      run: npm run start-dev &
+    - name: Wait for server
+      run: npx wait-on http://localhost:3052
     - name: Run Playwright tests
       run: npx playwright test
+    - name: Stop localserver
+      run: kill $(lsof -t -i:3052)
     - uses: actions/upload-artifact@v4
       if: always()
       with:
