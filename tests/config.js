@@ -6,7 +6,7 @@ const config = {
     pokerVillains: {
       user: {
         username: 'ian.ovenden@pega.com',
-        password: '55M3tall1c&55'
+        password: '88$y$temOfADown88'
       }
     }
     // mediaCo: {
