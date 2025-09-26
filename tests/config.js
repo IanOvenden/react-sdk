@@ -1,12 +1,13 @@
 // require('lighthouse/lighthouse-core/config/lr-desktop-config.js');
+require('dotenv').config();
 
 const config = {
   baseUrl: 'http://localhost:3502',
   apps: {
     pokerVillains: {
       user: {
-        username: 'ian.ovenden@pega.com',
-        password: '88$y$temOfADown88'
+        username: process.env.POKER_VILLAINS_USERNAME,
+        password: process.env.POKER_VILLAINS_PASSWORD
       }
     }
     // mediaCo: {

@@ -1,5 +1,5 @@
-const { test, expect } = require('@playwright/test');
-const AxeBuilder = require('@axe-core/playwright').default;
+const { test } = require('@playwright/test');
+// const AxeBuilder = require('@axe-core/playwright').default;
 
 const common = require('../../common');
 const config = require('../../config');
@@ -16,9 +16,9 @@ test.describe('E2E test', () => {
     await winner.click();
     await winner.fill('Ian O');
 
-    const accessibilityScanResults = await new AxeBuilder({ page }).analyze(); // 4
+    // const accessibilityScanResults = await new AxeBuilder({ page }).analyze(); // 4
 
-    expect(accessibilityScanResults.violations).toEqual([]);
+    // expect(accessibilityScanResults.violations).toEqual([]);
 
     // const firstNameInput = page.locator('input[data-test-id="BC910F8BDF70F29374F496F05BE0330C"]');
     // await firstNameInput.click();

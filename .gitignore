@@ -5,6 +5,7 @@ node_modules
 /__DO_NOT_COMMIT
 
 # local env files
+.env
 .env.local
 .env.*.local
 

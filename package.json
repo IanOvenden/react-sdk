@@ -119,6 +119,7 @@
     "copy-webpack-plugin": "^11.0.0",
     "cspell": "^8.3.2",
     "css-loader": "^6.8.1",
+    "dotenv": "^17.2.2",
     "eslint": "^8.56.0",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-jest": "^27.6.2",
