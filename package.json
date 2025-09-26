@@ -86,6 +86,7 @@
     "throttle-debounce": "^5.0.2"
   },
   "devDependencies": {
+    "@axe-core/playwright": "^4.10.2",
     "@babel/preset-env": "^7.23.9",
     "@babel/preset-react": "^7.23.3",
     "@babel/preset-typescript": "^7.23.3",
